@@ -1,0 +1,92 @@
+/*荧光绿*/
+.highlight-green {
+  color: #39ff14;
+  font-size: 1em;
+  font-weight: bold;  /* 可选加粗 */
+}
+
+/* 定义渐变文字样式 */
+.gradient-text {
+  background-image: linear-gradient(
+    to bottom,
+    #ff0000,   /* 红 */
+    #ff7f00,   /* 橙 */
+    #ffff00,   /* 黄 */
+    #00ff00,   /* 绿 */
+    #0000ff,   /* 蓝 */
+    #4b0082,   /* 靛 */
+    #9400d3    /* 紫 */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: block;
+  width: 100%;
+}
+/* 定义渐变文字样式 ，自动换行*/
+.gradient-text1 {
+  background-image: linear-gradient(
+   to bottom, 
+  #ff0000, 
+  #ff7f00, 
+  #ffff00, 
+  #00ff00, 
+  #0000ff, 
+  #4b0082, 
+  #9400d3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: block;
+  width: 100%;
+  white-space: pre-wrap;   /* 保留换行符，且自动换行 */
+}
+
+/* 纯红 */
+.color-red {
+  color: #ff0000;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* 纯橙 */
+.color-orange {
+  color: #ff7f00;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* 纯黄 */
+.color-yellow {
+  color: #ffff00;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* 纯绿 */
+.color-green {
+  color: #00ff00;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* 纯蓝 */
+.color-blue {
+  color: #0000ff;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* 纯靛 */
+.color-indigo {
+  color: #4b0082;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* 纯紫 */
+.color-purple {
+  color: #9400d3;
+  font-size: 1em;
+  font-weight: bold;
+}
